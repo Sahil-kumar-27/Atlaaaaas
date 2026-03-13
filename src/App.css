@@ -21,8 +21,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-div {
+h5 {
   color: #fff;
 }
 
@@ -101,7 +100,7 @@ button {
 /* Layout  */
 
 header {
-  height: 10rem;
+  height: 9rem;
   box-shadow: rgba(255, 255, 255, 0.3) 0px 10px 10px -10px;
   background-color: #202020;
   width: 100%;
@@ -598,4 +597,12 @@ contact us Page ends here
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.Logo a {
+  text-decoration: none;
 }
